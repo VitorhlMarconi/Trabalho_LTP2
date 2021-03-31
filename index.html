@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paineis</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <nav class="navbar navbar-expand-xl bg-dark" style="height: 50px;">
+
+          <a href="" style="font-size: 25px; font-weight: lighter; color: white;">LTP2</a>
+
+      <ul class="navbar-nav" >
+        
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Jumbotron</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Paineis</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Accordion</a></li>
+
+      </ul><!-- navbar-nav -->
+
+      <div class="form-inline">
+
+        <input class="form-control mr-sm-2" type="text">
+        <input class="btn btn-outline-sucess" type="button" value="Buscar">
+
+      </div><!-- barra-pesquisa --> 
+
+    </nav><!-- navbar navbar-expand-xl bg-dark -->
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    
+    <ul class="carousel-indicators">
+    
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    
+    </ul><!-- carousel-indicators -->
+
+      <!-- The slideshow -->
+      
+    <div class="carousel-inner" style="background-color: #212529;">
+    
+      <div class="carousel-item active" data-interval="2500">
+    
+        <img src="imagens/img01.jpg"  width="1100" height="500">
+    
+      </div><!-- carousel-item active -->
+    
+      <div class="carousel-item" data-interval="2500">
+    
+        <img src="imagens/img02.jpg" width="1100" height="500">
+    
+      </div><!-- carousel-item active -->
+    
+      <div class="carousel-item" data-interval="2500">
+    
+        <img src="imagens/img03.jpg" width="1100" height="500">
+    
+      </div><!-- carousel-item active-->
+    
+    </div><!-- carousel-inner -->
+    
+    <!-- Left and right controls -->
+    
+    <a style="width: 10%; height: 20%;" class="carousel-control-prev" href="#demo" data-slide="prev">
+    
+      <span class="carousel-control-prev-icon"></span>
+    
+    </a><!-- carousel-control-prev-icon-->
+    
+    <a style="width: 10%; height: 20%;" class="carousel-control-next" href="#demo" data-slide="next">
+    
+      <span class="carousel-control-next-icon"></span>
+    
+    </a><!-- carousel-control-next-icon -->
+
+  </div><!-- bg-slider -->
+
+  <div class="paineis-titulo">
+
+    <h2>Paineis</h2>  
+
+  </div><!-- paineis-titulo -->
+
+  <div class="paineis">
+
+    <div class="card">
+    
+      <h3>Título 1</h3>
+      <div class="card-header"><img src="imagens/sistemas.jpg"></div>
+      <div class="card-body"><h3>Painel 1</h3> <br> <p>Texto do painel. Este texto será formatado de forma específica.</p></div>
+      <div class="card-footer"><a href="">Home</a> <a href="">Unilago</a></div>
+    
+    </div>
+
+    <div style="background-color: rgb(53, 48, 48);color: white;" class="card">
+    
+      <h3>Título 2</h3>
+      <div class="card-header"><img src="imagens/si2.png"></div>
+      <div class="card-body"><h3>Painel 2</h3> <br> <p>Texto do painel. Este texto será formatado de forma específica.</p></div>
+      <div class="card-footer"><button>Home</button> <button>Unilago</button> <br> <hr> <p>rodapé</p></div>
+    
+    </div>
+
+    <div class="card">
+
+      <h3>Título 3</h3>
+      <div class="card-header"><img src="imagens/si3.webp"></div>
+      <div class="card-body"><h3>Painel 3</h3> <br> <p>Texto do painel. Este texto será formatado de forma específica.</p></div>
+      <div class="card-footer"><a href="">Home</a> <a href="">Unilago</a></div>
+    
+    </div>
+
+  </div><!-- paineis -->
+
+  <div class="card-titulo" style="margin-top: 10%;">
+
+    <div class="card">
+
+      <div class="card-header"><a href="">Card 1</a></div>
+      <div class="card-header"><p>Texto do primeiro card <br> Segunda linha</p></div><!-- card-body -->
+
+    </div><!-- card -->
+
+    <div class="card">
+
+      <div class="card-header"><a href="">Card 2</a></div>
+
+    </div><!-- card -->
+
+    <div class="card">
+
+      <div class="card-header"><a href="">Card 3</a></div>
+
+    </div><!-- card -->
+
+  </div><!-- card-titulo-->
+    
+    <div class="line-titulo">
+      
+      <div class="ln1"></div><!-- ln1 -->
+
+      <h5>Contato</h5>
+
+    </div><!-- line-titulo -->
+
+    <div class="form-group">
+
+      
+        
+        <input type="radio" required name="pessoa">
+        <label style="padding-right: 15px;padding-left: 5px;">Pessoa Física</label>
+
+        <input type="radio" required name="pessoa">
+        <label style="padding-left: 5px;">Pessoa Jurídica</label>
+
+      
+      
+      <div class="input-wraper w100">
+        
+        <input placeholder="Nome*" required type="text">
+
+      </div><!-- w100 -->
+
+      <div class="input-wraper w100">
+        
+        <input placeholder="E-mail*" required type="text">
+
+      </div><!-- w100 -->
+
+      <div class="input-wraper w100"></div>
+        
+      <div class="selecao">
+        
+        <label>Assuntos: </label><br>
+        <select style="width: 96%; outline: 0;" class="assuntos" name="assuntos">
+
+          <option disabled>Escolha uma opção</option>
+          <option>Dúvidas</option>
+          <option>Tesouraria</option>
+          <option>Secretária</option>
+
+        </select>
+
+      </div><!-- selecao -->
+        
+        <textarea placeholder="Mensagem"></textarea>
+
+      </div><!-- w100 -->
+
+      <div class="input-wraper">
+        
+        <input class="btn1" type="submit" value="Enviar">
+
+      </div><!-- w100 -->
+
+    </div><!-- form-group -->
+
+</div><!-- container-fluid -->
+
+</body>
+</html>
